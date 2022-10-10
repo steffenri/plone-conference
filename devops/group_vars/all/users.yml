@@ -4,7 +4,8 @@ users:
   'plone':
     name: 'Plone installation'
     email: 'collective@plone.org'
-    public_keys: []
+    public_keys: 
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQaJNvBGMoDtW73lnIQgTCV57HkY1HF98zeo5cjLbUPc26fpufinn+mEz5VK3MMfQisNa9DtxZQlYAwHGnCWPHPG19hX+y9wBXkleznQQhMkdsnhiguR6OemWZRbn2231TZk5aa66TooGZGkV+vlN199UchkrpT/WzsgO7TO03DlfJEZgBBjLwqgG4/kJyZxCPhZLPhkvvruK4ewck+fX4fhNosirIc6rKKSIlrxJv2KUaOZrMaaT3ZLAmGhl4go0VTdhHIWBiWKce8JEJl6t1aS9UYqTU7pg3GRa6ePDymaUKsBrOcL8kPbZOd3XutNrFjNwecwlfIFOZlMKEEY6l6TJzQii2+ELV+TxbBMH1va4ynj3i0TJvCDHAXHUpDkau7huC1ACZg53pDNvj4j7UHu4KL1xIewIHcvYTICSCu+QRyp+sZfqwv9muLet163mbrpUk1GNjN8CeDXWtalqKyYiT7YDntg0Ml0RFzvq65YuCQdgBcDBBLUoDcMT+ddZtDYgIfMGD1I6yxDe1/6bOuugQL62OyHrOxCzngjKf7ReZPsQnblaqTP4YG5HU7TemZOiy19sCdJH3xqPb67b5RsTkSJUbzBa45N5LQKkoK8gVK5Or3A+mEYnSRdpviiUge7Rx0HKNlEOH54+SOoNm0pXvUfyhHcOIzK2b9TEE6Q== ring@kitconcept.com
     state: present
     shell: '/bin/bash'
     groups:
